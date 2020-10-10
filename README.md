@@ -3,6 +3,7 @@
 * The architecture as shown below features the ingestion of Data into the systems from internet.
 * - Batch Data
 * - Streaming Data
+
 ![Architecture](/datalake.png)
 
 ### Data Ingestion
