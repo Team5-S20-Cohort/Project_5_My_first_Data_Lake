@@ -1,8 +1,8 @@
 # Project_5_My_first_Data_Lake
 ## Architecture
 * The architecture as shown below features the ingestion of Data into the systems from internet.
-** Batch Data
-** Streaming Data
+* - Batch Data
+* - Streaming Data
 ### Data Ingestion
 * To commence the process, a python code is used to pull streaming data from available APIs on the web, and send the data to an Apache Kafka instance which is dockerised for easy deployment, management and scalability.
  The same process applys to batch data, which is instead sent to another EC2 instance for storage. An EC2 instance was used to allow us have enough storage for batch data within the free tier available in Amazon cloud.
