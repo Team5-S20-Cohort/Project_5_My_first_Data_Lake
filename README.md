@@ -4,6 +4,7 @@
 * - Batch Data
 * - Streaming Data
 
+
 ![Architecture](/datalake.png)
 
 ### Data Ingestion
