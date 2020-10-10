@@ -5,8 +5,10 @@
   * uploade all required files.
   
  ## Create AWS cloud account 
- * Create VPC, Gateway security group , private subnets for MongoDB and EC2 instance for storage, and a public subnet for Instances hosting  Tableau
- * Spin up an EC2 instance(Install Updates, apache webserver, and other dependencies for running any scripts to be used here).
+  * Configure Identity and access management.
+  * Create users, groups, roles, and policies
+  * Create VPC, Gateway security group , private subnets for MongoDB and EC2 instance for storage, and a public subnet for Instances hosting  Tableau
+  * Spin up an EC2 instance(Install Updates, apache webserver, and other dependencies for running any scripts to be used here).
 
 * **For Batch Data:**
   * Create a python script that extracts data related to COVID.
@@ -21,11 +23,6 @@
   
 * **MongoDB:**
   * Installing and configuring MongoDB.
-  
-* **AWS:**
-  * Configure Identity and access management.
-  * Create users, groups, roles, and policies.-
- 
  
 ## On EC2 instance install Docker:
 
