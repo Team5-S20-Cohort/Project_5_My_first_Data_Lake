@@ -10,10 +10,14 @@
   * Collecting data of all API's(On the data sources).
 * **GITHUB:**
   * Updating Readme.md files. 
-	* uploading all required files.
+  * uploading all required files.
 * **Scripts:**
   * Python scripts to clean the data.
-	* scritps to load into MongoDB.(Batch data).
-	* Scripts to load into MongoDB.(Stream Data).
+  * scritps to load into MongoDB.(Batch data).
+  * Scripts to load into MongoDB.(Stream Data).
 * **MongoDB:**
   * Installing and configuring MongoDB.
+* **AWS:**
+  * Configure Identity and access management.
+    -Create users, groups, roles, and policies.-
+
