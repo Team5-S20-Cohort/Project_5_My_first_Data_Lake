@@ -40,6 +40,6 @@
 
 ## Prediction:
 
- * -Finding Time series analysis between COVID data and Weather data.
+ * Finding Time series analysis between COVID data and Weather data.
 
- * -Forecasting effect between COVID and weather in the future.
+ * Forecasting effect between COVID and weather in the future.
