@@ -45,7 +45,7 @@
  * Forecasting effect between COVID and weather in the future.
 ## ToDO:
 
-*  We create a IAM user Accounts with appropriate permission.## **#Harish and Yemi** 
+*  We create a IAM user Accounts with appropriate permission.  ## **#Harish and Yemi** 
 *  A Role to access s3 bucket ##**#Harish and Yemi**
 *  Create a VPC inside a Region and AZ. **#Antony and sabe**
 *  Public Subnets and Private subnets **Antony and sabe**
