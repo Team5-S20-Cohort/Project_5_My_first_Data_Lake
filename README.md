@@ -4,7 +4,7 @@
 * - Batch Data
 * - Streaming Data
 
-
+### lastest design ![Architecture](/pylab.png)
 ![Architecture](/datalake.png)
 
 ### Data Ingestion
