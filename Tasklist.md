@@ -43,3 +43,23 @@
  * Finding Time series analysis between COVID data and Weather data.
 
  * Forecasting effect between COVID and weather in the future.
+## ToDO:
+
+*  We create a IAM user Accounts with appropriate permission.**#Harish and Yemi 
+*  A Role to access s3 bucket **#Harish and Yemi
+*  Create a VPC inside a Region and AZ. **#Antony and sabe
+*  Public Subnets and Private subnets **Antony and sabe
+*  Create appropriate security groups. **Antony and sabe
+*  2 EC2 in Public subnets. **Rogba and sabe
+*  Setup MongoDb (Deploy and configuration) in Private subnet. **Yemi and Harish
+*  Setup S3 bucket **Antony and Rogba
+*  Upgrade and update the EC2 **Rogba and Sabe
+*  install docker and make it container **Yemi and Harish
+*  Add python code into EC2 instanses **Antony and ahmed
+*  Lanuch Lambda Function **Yemi and Harish
+*  Lanuch Kafka  by connecting with Lambda function. **Yemi and harish
+*  Write Kafka code to inject and process data **Sabe and Harish and Yemi and rogba and Anthony
+*  write kafka code to clean data.**Sabe and Harish and Yemi and rogba and Anthony
+*  process this clean data into MongoDb.**Sabe and Harish and Yemi and rogba and Anthony
+# Preduction: 
+**this will be given by Christian. 
