@@ -45,37 +45,37 @@
  * Forecasting effect between COVID and weather in the future.
 ## ToDO:
 
-# **#Harish and Yemi** 
+### **#Harish and Yemi** 
 *  We create a IAM user Accounts with appropriate permission. 
-# **#Harish and Yemi**
+### **#Harish and Yemi**
 *  A Role to access s3 bucket
-# **#Antony and sabe**
+### **#Antony and sabe**
 *  Create a VPC inside a Region and AZ.
-# **#Antony and sabe**
+### **#Antony and sabe**
 *  Public Subnets and Private subnets 
-# **#Antony and sabe**
+### **#Antony and sabe**
 *  Create appropriate security groups. 
-# **#Rogba and sabe**
+### **#Rogba and sabe**
 *  2 EC2 in Public subnets. 
-# **Yemi and Harish**
+### **Yemi and Harish**
 *  Setup MongoDb (Deploy and configuration) in Private subnet. 
-# **Antony and Rogba**
+### **Antony and Rogba**
 *  Setup S3 bucket 
-# **Rogba and Sabe**
+### **Rogba and Sabe**
 *  Upgrade and update the EC2 
-# **Yemi and Harish**
+### **Yemi and Harish**
 *  install docker and make it container 
-# **Antony and ahmed**
+### **Antony and ahmed**
 *  Add python code into EC2 instanses 
-# **Yemi and Harish**
+### **Yemi and Harish**
 *  Lanuch Lambda Function 
-# **Yemi and Harish**
+### **Yemi and Harish**
 *  Lanuch Kafka  by connecting with Lambda function. 
-# **Sabe and Harish and Yemi and rogba and Anthony**
+### **Sabe and Harish and Yemi and rogba and Anthony**
 *  Write Kafka code to inject and process data 
-# **Sabe and Harish and Yemi and rogba and Anthony**
+### **Sabe and Harish and Yemi and rogba and Anthony**
 *  write kafka code to clean data.
-# **Sabe and Harish and Yemi and rogba and Anthony**
+### **Sabe and Harish and Yemi and rogba and Anthony**
 *  process this clean data into MongoDb.
 # Preduction: 
 **this will be given by Christian. 
