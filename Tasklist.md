@@ -65,7 +65,7 @@
 *  Upgrade and update the EC2 
 ### **Yemi and Harish**
 *  install docker and make it container 
-### **Antony and ahmed**
+### **Antony and Rogba(Ahmed)**
 *  Add python code into EC2 instanses 
 ### **Yemi and Harish**
 *  Lanuch Lambda Function 
@@ -77,9 +77,7 @@
 *  write kafka code to clean data.
 ### **Sabe and Harish and Yemi and rogba and Anthony**
 *  process this clean data into MongoDb.
-# Preduction: 
-**this will be given by Christian. 
+# Prediction: 
+**this will be given by Harish and Yemi(Christan). 
 
 
-this is rogba 
-Review ongoing
