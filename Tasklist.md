@@ -68,9 +68,9 @@
 ### **Antony and Rogba(Ahmed)**
 *  Add python code into EC2 instanses 
 ### **Yemi and Harish**
-*  Lanuch Lambda Function 
+*  Launch Lambda Function 
 ### **Yemi and Harish**
-*  Lanuch Kafka  by connecting with Lambda function. 
+*  Launch Kafka  by connecting with Lambda function. 
 ### **Sabe and Harish and Yemi and rogba and Anthony**
 *  Write Kafka code to inject and process data 
 ### **Sabe and Harish and Yemi and rogba and Anthony**
