@@ -56,7 +56,7 @@
 ### **#Antony and sabe**
 *  Create appropriate security groups. 
 ### **#Rogba and sabe**
-*  2 EC2 in Public subnets. 
+*  2 EC2 in Public subnets and 1 EC2 in Private Subnet. 
 ### **Yemi and Harish**
 *  Setup MongoDb (Deploy and configuration) in Private subnet. 
 ### **Antony and Rogba and Yemi and Sabe and Harish**
