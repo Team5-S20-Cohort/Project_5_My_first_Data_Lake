@@ -59,7 +59,7 @@
 *  2 EC2 in Public subnets. 
 ### **Yemi and Harish**
 *  Setup MongoDb (Deploy and configuration) in Private subnet. 
-### **Antony and Rogba**
+### **Antony and Rogba and Yemi and Sabe and Harish**
 *  Setup S3 bucket 
 ### **Rogba and Sabe**
 *  Upgrade and update the EC2 
