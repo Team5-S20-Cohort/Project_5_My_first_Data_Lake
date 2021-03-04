@@ -85,3 +85,5 @@ This resulted to the uploading of the remaining missing files:
 ### Data Visualization
  * Now that all the data has been moved to s3, we now have a datalake from which we are set to extract useful information to display on PowerBi. To achieve this, there is a need to install a connector for PowerBI to S3. Establishing a connection between the s3 and PowerBi allows us search for needed information from the datalake and displaying same in powerBi. 
  
+ ![image](https://user-images.githubusercontent.com/67946241/110034245-7e91ed80-7d3a-11eb-951f-625ae1973390.png)
+
