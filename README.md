@@ -32,6 +32,7 @@ The EC2 instance was configured as follows:
    
 2. Install pip
    sudo apt install python3-pip
+   
    ![image](https://user-images.githubusercontent.com/67946241/110030468-15a87680-7d36-11eb-9f67-bb689cb57bbc.png)
    
 3. Create a virtual env named Project5
