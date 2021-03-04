@@ -4,9 +4,11 @@
 * The architecture typically describes the buiding of a datalake for the storage of all forms of data that can be extracted from an open source kaggle repository on the internet. Typically, there are two possible scenarios:
 * - Batch Data
 * - Streaming Data
-* This project is concerned with ingesting batch data from source by using python scripts and preparing it is such a way that would be easy to extract and display information on a data analytics tool such as Tableau or Microsoft PowerBi.
+ This project is concerned with ingesting batch data from source by using python scripts and preparing it is such a way that would be easy to extract and display information on a data analytics tool such as Tableau or Microsoft PowerBi.
 
-* The project is a typical ETL procedure
+The project is a typical ETL procedure
+
+
 ### lastest design ![Architecture](/pylab.jpg)
 ![Architecture](/datalake.png)
 
@@ -21,8 +23,20 @@ Val_COVIDx_CT-2A.txt
 The Images folder contains images of patients brains who at the time of taking covid tests, either have pneumonia, Covid-19 or normal.
 
 ### Data Ingestion
-* To commence the process, a python script is used to pull streaming data from available APIs on the web, and send the data to an Apache Kafka instance which is dockerised for easy deployment, management and scalability.
- The same process applys to batch data, which is instead sent to another EC2 instance for storage. An EC2 instance was used to allow us have enough storage for batch data within the free tier available in Amazon cloud.
+* Data ingestion was done by running a python script on an Ubuntu 20.4 ec2 instance in Amazon cloud. To address cost, the ec2 instance used is within the free tier. However, to cater for the relatively huge data size, the storage on the server was increase in excess of required space. There was no requirement to upgrade the ec2 instance as it is a fresh installment from Amazon. 
+
+The EC2 instance was configured as follows:
+1. Update the instance by running:
+   sudo apt-get update
+2. Install pip
+   sudo apt install python3-pip
+3. Create a virtual env named Project5
+   python3 -m pip install virtualenv
+   Virtualenv Project5
+4. Install Boto3 and Kaggle Libraries
+   pip install boto3
+   pip install kaggle
+    
 
 ### Data Cleaning for Batch Data.
 * After loading the batch data into storage. A python code is used to clean the data, where only required information are sent to the Mongo DB in readiness for prediction        algorithms and visualization on Tableau.
