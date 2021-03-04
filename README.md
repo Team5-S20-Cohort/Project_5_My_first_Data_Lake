@@ -43,7 +43,7 @@ The EC2 instance was configured as follows:
    pip install kaggle
     
 
-### Data Extraction, Transformation and Loading
+### Data Extraction and Transformation
 The python script written does the following:
 * Extract the zip files
 * Merge the content of the txt file before uploading into the s3 datalake. 
@@ -66,6 +66,24 @@ OSError: Could not find kaggle.json. Make sure it's located in /home/ubuntu/.kag
 
 This error is easily taken care of by downloading the kaggle json file and saving it into the root directory of the ec2 instance /home/ubuntu
 The json file is needed to establish connection to kaggle before any data can be extracted.
+
+ ### Data Loading
+After unzipping and merging the files, the data is then uploaded to s3 and the update is seen realtime:
+
+
+### Post-Uploading
+During uploading of the files to S3, about 126,000 files were uploaded out of about 196,000 files. This accounts for about 64% success rate. The huge failure experienced was due to the low compute power of the ec2 instance which resulted to throtling during the processing. The free tier ec2 instance runs about 300 iops. To resolve this, the python code was redesigned to go into the folder, make comparison with successful upload and upload the differential:
+
+![image](https://user-images.githubusercontent.com/67946241/110032185-24902880-7d38-11eb-8dc0-99144b68c8d2.png)
+
+
+This resulted to the uploading of the remaining missing files:
+
+![image](https://user-images.githubusercontent.com/67946241/110032321-4ab5c880-7d38-11eb-856a-211322168ac0.png)
+
+
+
+
 
 
 ### Data Visualization
