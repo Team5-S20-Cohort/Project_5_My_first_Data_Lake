@@ -38,11 +38,16 @@ The EC2 instance was configured as follows:
    pip install kaggle
     
 
-### Data Cleaning for Batch Data.
-* After loading the batch data into storage. A python code is used to clean the data, where only required information are sent to the Mongo DB in readiness for prediction        algorithms and visualization on Tableau.
-
-### Streaming Data processing
-* For streaming data, Apache Kafka is used to filter the data and sent to mongo DB. Apache Kafka has the capacity to provide buffer for the incoming data so that the entire       system is not overwhelmed. Mongo DB was used as final storage because of the convinience it provides and capacity to handle different forms of data structure including NOSQL     data which will form part of our data system.  
+### Data Extraction, Transformation and Loading
+The python script written does the following:
+* Extract the zip files
+* Merge the content of the txt file before uploading into the s3 datalake. 
+ 
+The process of extractions and merging required that the data be first uploaded to storage on the ec2 instance, perform the transformation process before uploading the files into s3 bucket. This is because data manipulation in s3 is more complicated.
+ 
+#### Error during extraction
+The error below is typical of data extraction from Kaggle:
+     
 
 ### Data Visualization
  * Now that the processed data is in mongo DB, prediction analysis will be done and appropriate comparison is carried out between the batch data and the streaming data. The        result is visualized on Tableau.
