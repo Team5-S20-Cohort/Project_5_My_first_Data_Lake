@@ -1,8 +1,12 @@
 # Project_5_My_first_Data_Lake
 ## Architecture
-* The architecture as shown below features the ingestion of Data into the systems from internet.
+
+* The architecture typically describes the buiding of a datalake for the storage of all forms of data that can be extracted from an open source kaggle repository on the internet. Typically, there are two possible scenarios:
 * - Batch Data
 * - Streaming Data
+* This project is concerned with ingesting batch data from source by using python scripts and preparing it is such a way that would be easy to extract and display information on a data analytics tool such as Tableau or Microsoft PowerBi.
+
+
 
 ### lastest design ![Architecture](/pylab.jpg)
 ![Architecture](/datalake.png)
