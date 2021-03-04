@@ -6,7 +6,7 @@
 * - Streaming Data
 * This project is concerned with ingesting batch data from source by using python scripts and preparing it is such a way that would be easy to extract and display information on a data analytics tool such as Tableau or Microsoft PowerBi.
 
-
+* The project is a typical ETL procedure
 ### lastest design ![Architecture](/pylab.jpg)
 ![Architecture](/datalake.png)
 
@@ -18,7 +18,7 @@ test_COVIDx_CT-2A.txt
 train_COVIDx_CT-2A.txt
 Val_COVIDx_CT-2A.txt
 
-The Images folder contains images of patients brains who at the time of taking covid tests, have either pneumonia
+The Images folder contains images of patients brains who at the time of taking covid tests, either have pneumonia, Covid-19 or normal.
 
 ### Data Ingestion
 * To commence the process, a python script is used to pull streaming data from available APIs on the web, and send the data to an Apache Kafka instance which is dockerised for easy deployment, management and scalability.
