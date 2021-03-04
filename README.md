@@ -20,7 +20,7 @@ test_COVIDx_CT-2A.txt
 train_COVIDx_CT-2A.txt
 Val_COVIDx_CT-2A.txt
 
-The Images folder contains images of patients brains who at the time of taking covid tests, either have pneumonia, Covid-19 or normal.
+The Images folder contains images of patients brains who at the time of taking covid tests, either have pneumonia, Covid-19 or normal. For each patient, we have several intrinsic information such as Country, age, sex, disease type (normal, covid or Pneumonia) all linked to the patient ID
 
 ### Data Ingestion
 * Data ingestion was done by running a python script on an Ubuntu 20.4 ec2 instance in Amazon cloud. To address cost, the ec2 instance used is within the free tier. However, to cater for the relatively huge data size, the storage on the server was increase in excess of required space. There was no requirement to upgrade the ec2 instance as it is a fresh installment from Amazon. 
