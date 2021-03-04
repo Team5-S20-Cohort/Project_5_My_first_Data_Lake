@@ -28,8 +28,12 @@ The Images folder contains images of patients brains who at the time of taking c
 The EC2 instance was configured as follows:
 1. Update the instance by running:
    sudo apt-get update
+   ![image](https://user-images.githubusercontent.com/67946241/110030514-25c05600-7d36-11eb-88f9-ef06dcc135c8.png)
+   
 2. Install pip
    sudo apt install python3-pip
+   ![image](https://user-images.githubusercontent.com/67946241/110030468-15a87680-7d36-11eb-9f67-bb689cb57bbc.png)
+   
 3. Create a virtual env named Project5
    python3 -m pip install virtualenv
    Virtualenv Project5
@@ -48,8 +52,20 @@ The process of extractions and merging required that the data be first uploaded 
 #### Error during extraction
 The error below is typical of data extraction from Kaggle:
 ![image](https://user-images.githubusercontent.com/67946241/110030182-b0ed1c00-7d35-11eb-9db7-d2381c78886f.png)
-modulenot found
-     
+
+  ubuntu@ip-172-31-82-159:~/Project5$ python3 project.py
+Traceback (most recent call last):
+  File "project.py", line 1, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/kaggle/__init__.py", line 23, in <module>
+    api.authenticate()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/kaggle/api/kaggle_api_extended.py", line 164, in authenticate
+    raise IOError('Could not find {}. Make sure it\'s located in'
+OSError: Could not find kaggle.json. Make sure it's located in /home/ubuntu/.kaggle. Or use the environment method.
+
+This error is easily taken care of by downloading the kaggle json file and saving it into the root directory of the ec2 instance /home/ubuntu
+The json file is needed to establish connection to kaggle before any data can be extracted.
+
 
 ### Data Visualization
  * Now that the processed data is in mongo DB, prediction analysis will be done and appropriate comparison is carried out between the batch data and the streaming data. The        result is visualized on Tableau.
