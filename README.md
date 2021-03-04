@@ -47,6 +47,8 @@ The process of extractions and merging required that the data be first uploaded 
  
 #### Error during extraction
 The error below is typical of data extraction from Kaggle:
+![image](https://user-images.githubusercontent.com/67946241/110030182-b0ed1c00-7d35-11eb-9db7-d2381c78886f.png)
+modulenot found
      
 
 ### Data Visualization
