@@ -7,12 +7,21 @@
 * This project is concerned with ingesting batch data from source by using python scripts and preparing it is such a way that would be easy to extract and display information on a data analytics tool such as Tableau or Microsoft PowerBi.
 
 
-
 ### lastest design ![Architecture](/pylab.jpg)
 ![Architecture](/datalake.png)
 
+###About the Data
+* The data used for this project is a dataset on Covid-19. It is a dataset that is located at and curled from the url https://www.kaggle.com/hgunraj/covidxct. It is a 29GB data that containes the following files in a zip:
+2A_images
+metadata.txt
+test_COVIDx_CT-2A.txt
+train_COVIDx_CT-2A.txt
+Val_COVIDx_CT-2A.txt
+
+The Images folder contains images of patients brains who at the time of taking covid tests, have either pneumonia
+
 ### Data Ingestion
-* To commence the process, a python code is used to pull streaming data from available APIs on the web, and send the data to an Apache Kafka instance which is dockerised for easy deployment, management and scalability.
+* To commence the process, a python script is used to pull streaming data from available APIs on the web, and send the data to an Apache Kafka instance which is dockerised for easy deployment, management and scalability.
  The same process applys to batch data, which is instead sent to another EC2 instance for storage. An EC2 instance was used to allow us have enough storage for batch data within the free tier available in Amazon cloud.
 
 ### Data Cleaning for Batch Data.
