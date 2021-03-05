@@ -17,14 +17,14 @@ client = boto3.client('s3', aws_access_key_id=ACCESS_KEY,
                       aws_secret_access_key=SECRET_KEY)
 
 
-
+### Downloading and unzipping the Kaggle Dataset, which consists of the metadata, test, train, val and the scans.
 def download_kaggle(kaggle_dataset):
     api = KaggleApi()
     api.authenticate()
     api.dataset_download_files(kaggle_dataset, path = "./dataset/", unzip=True)
 
 
-
+### Merging the test, train and val into one
 def merge_clean_files():
     filenames = glob.glob('./dataset/*.txt')
     with open('./dataset/COVIDx_CT-2A.txt', 'w') as outfile:
@@ -33,7 +33,7 @@ def merge_clean_files():
                 for line in infile:
                     outfile.write(line)
 
-
+### Uploading files to the S3 bucket already created
 def upload_to_S3():
     # enumerate local files recursively
     for root, dirs, files in os.walk(local_directory):
@@ -47,7 +47,7 @@ def upload_to_S3():
                 print("Uploading {}...".format(s3_path))
                 client.upload_file(local_path, bucket, s3_path)
                 
-
+### Running the script
 if __name__ == '__main__':
     print("Downloading dataset from kaggle >>>>>>>>>>>>>>>> \n")
     download_kaggle('imdevskp/corona-virus-report')
