@@ -12,8 +12,9 @@ We had to exclude the streaming data because there was no correlation between th
 The project is a typical ETL procedure
 
 
-### lastest design ![Architecture](/pylab.jpg)
-![Architecture](/datalake.png)
+### lastest design
+![image](https://user-images.githubusercontent.com/67946241/110204481-82755b00-7e73-11eb-8c68-e206b4996b75.png)
+
 
 ###About the Data
 * The data used for this project is a dataset on Covid-19. It is a dataset that is located at and curled from the url https://www.kaggle.com/hgunraj/covidxct. It is a 29GB data that containes the following files in a zip:
