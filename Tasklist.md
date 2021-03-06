@@ -2,7 +2,7 @@
  ## GITHUB:
   * Create a GITHUB repository for the project
   * Update Readme.md files. 
-  * uploade all required files.
+  * Upload all required files.
   
  ## Create AWS cloud account 
   * Configure Identity and access management.
@@ -18,12 +18,9 @@
 
 * **Scripts:**
   * Python scripts to clean the data.
-  * scritps to load into MongoDB.(Batch data).
-  * Scripts to load into MongoDB.(Stream Data).
+  * scritps to load into S3.(Batch data).
   
-* **MongoDB:**
-  * Installing and configuring MongoDB.
- 
+   
 ## On EC2 instance install Docker:
 
  * Create/Build a docker container.
@@ -33,7 +30,7 @@
  * Unit Tests the scripts
 
 
-## Tableau:
+## PowerBI:
 
  * Install Tableau Server in Docker container.
  * Establish a connection between MongoDB and Tableau.
