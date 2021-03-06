@@ -16,7 +16,9 @@ The project is a typical ETL procedure
 ![image](https://user-images.githubusercontent.com/67946241/110204506-aafd5500-7e73-11eb-8499-cfa113ddee68.png)
 
 
+
 ###About the Data
+
 * The data used for this project is a dataset on Covid-19. It is a dataset that is located at and curled from the url https://www.kaggle.com/hgunraj/covidxct. It is a 29GB data that containes the following files in a zip:
 2A_images
 metadata.txt
