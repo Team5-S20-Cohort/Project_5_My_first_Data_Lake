@@ -13,7 +13,7 @@ The project is a typical ETL procedure
 
 
 ### lastest design
-![image](https://user-images.githubusercontent.com/67946241/110204481-82755b00-7e73-11eb-8c68-e206b4996b75.png)
+![image](https://user-images.githubusercontent.com/67946241/110204506-aafd5500-7e73-11eb-8499-cfa113ddee68.png)
 
 
 ###About the Data
