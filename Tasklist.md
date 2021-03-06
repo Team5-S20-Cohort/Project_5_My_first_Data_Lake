@@ -13,34 +13,29 @@
 * **For Batch Data:**
   * Create a python script that extracts data related to COVID.
   * Get all required data sources that COVID exists. (like website, forums, articles, videos (video stream apps/websites), Analytical sites).
-* **For Stream Data:**
-  * Collecting data of all API's(On the data sources).
+
 
 * **Scripts:**
   * Python scripts to clean the data.
   * scritps to load into S3.(Batch data).
   
    
-## On EC2 instance install Docker:
-
- * Create/Build a docker container.
- * Create folders for File storage
- * Create a Python Scripts to extract batch Data from the web and move to storage.
- * Create a python Scripts to extract Stream data and move to Kafka.
- * Unit Tests the scripts
-
-
 ## PowerBI:
 
- * Install Tableau Server in Docker container.
- * Establish a connection between MongoDB and Tableau.
+ * Install Microsoft PowerBI Server .
+ * Establish a connection between s3 bucket and PowerBI.
 
 ## Prediction:
 
  * Finding Time series analysis between COVID data and Weather data.
-
  * Forecasting effect between COVID and weather in the future.
+ 
 ## ToDO:
+
+## IMPROVEMENT AREAS:
+ * Inclusion of Streaming data if has been available. Collecting data of all API's(On the data sources).
+ * The use of Docker for seamless deployments
+
 
 ### **#Harish and Yemi** 
 *  We create a IAM user Accounts with appropriate permission. 
