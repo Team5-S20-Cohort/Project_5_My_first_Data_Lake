@@ -30,16 +30,16 @@
  * Finding Time series analysis between COVID data and Weather data.
  * Forecasting effect between COVID and weather in the future.
  
-## ToDO:
+## Todo:
 
-## IMPROVEMENT AREAS:
+## Improvement Areas:
  * Inclusion of Streaming data if has been available. Collecting data of all API's(On the data sources).
  * The use of Docker for seamless deployments
 
 
-### **#Harish and Yemi** 
+### **#Anthony and Yemi** 
 *  We create a IAM user Accounts with appropriate permission. 
-### **#Harish and Yemi**
+### **#Sabe and Yemi**
 *  A Role to access s3 bucket
 ### **#Antony and sabe**
 *  Create a VPC inside a Region and AZ.
@@ -49,27 +49,25 @@
 *  Create appropriate security groups. 
 ### **#Rogba and sabe**
 *  2 EC2 in Public subnets and 1 EC2 in Private Subnet. 
-### **Yemi and Harish**
+### **Yemi and Rogba**
 *  Setup MongoDb (Deploy and configuration) in Private subnet. 
-### **Antony and Rogba and Yemi and Sabe and Harish**
+### **Antony and Rogba and Yemi and Sabe **
 *  Setup S3 bucket with name: dstiproject5-bucket-n
 ### **Rogba and Sabe**
 *  Upgrade and update the EC2 
-### **Yemi and Harish**
-*  install docker and make it container 
 ### **Antony and Rogba(Ahmed)**
 *  Add python code into EC2 instanses 
-### **Yemi and Harish**
+### **Yemi and Anthony**
 *  Launch Lambda Function 
-### **Yemi and Harish**
+### **Yemi and Sabe**
 *  Launch Kafka  by connecting with Lambda function. 
-### **Sabe and Harish and Yemi and rogba and Anthony**
+### **Sabe and Yemi and Yemi and rogba and Anthony**
 *  Write Kafka code to inject and process data 
-### **Sabe and Harish and Yemi and rogba and Anthony**
+### **Sabe and Rogba and Yemi and rogba and Anthony**
 *  write kafka code to clean data.
-### **Sabe and Harish and Yemi and rogba and Anthony**
+### **Sabe and Yemi and Yemi and rogba and Anthony**
 *  process this clean data into MongoDb.
 # Prediction: 
-**this will be given by Harish and Yemi(Christan). 
+**this will be given by Anthony and Yemi(Christan). 
 
 
