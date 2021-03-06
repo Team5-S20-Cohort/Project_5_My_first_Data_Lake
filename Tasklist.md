@@ -41,11 +41,11 @@
 *  We create a IAM user Accounts with appropriate permission. 
 ### **#Sabe and Yemi**
 *  A Role to access s3 bucket
-### **#Antony and sabe**
+### **#Antony and Rogba**
 *  Create a VPC inside a Region and AZ.
 ### **#Antony and sabe**
 *  Public Subnets and Private subnets 
-### **#Antony and sabe**
+### **#Antony and Yemi**
 *  Create appropriate security groups. 
 ### **#Rogba and sabe**
 *  2 EC2 in Public subnets and 1 EC2 in Private Subnet. 
