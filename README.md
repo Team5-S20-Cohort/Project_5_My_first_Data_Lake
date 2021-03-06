@@ -5,7 +5,9 @@
 * - Batch Data
 * - Streaming Data
  
-This project is concerned with ingesting batch data from source by using python scripts and preparing it is such a way that would be easy to extract and display information on a data analytics tool such as Tableau or Microsoft PowerBi.
+This project is concerned with ingesting batch data from source by using python scripts and preparing it is such a way that would be easy to extract and display information on a data analytics tool Microsoft PowerBi.
+
+We had to exclude the streaming data because there was no correlation between the weather conditions in France and the Covid-19 data.
 
 The project is a typical ETL procedure
 
