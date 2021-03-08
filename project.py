@@ -3,18 +3,16 @@ import os
 import sys
 import boto3
 import glob
+import config
 
 #directory
 local_directory = "./dataset/"  
 bucket = 'dstiproject5-bucket1'
 destination = 'covid_dataset'
 
-ACCESS_KEY = 'AKIAIOA6LH6FC6W2TB7Q'
-SECRET_KEY = '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'
 
-
-client = boto3.client('s3', aws_access_key_id=ACCESS_KEY,
-                      aws_secret_access_key=SECRET_KEY)
+client = boto3.client('s3', aws_access_key_id=config.ACCESS_KEY,
+                      aws_secret_access_key=config.SECRET_KEY)
 
 
 ### Downloading and unzipping the Kaggle Dataset, which consists of the metadata, test, train, val and the scans.
